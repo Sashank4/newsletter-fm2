@@ -67,3 +67,83 @@ button{
   border: none;
   letter-spacing: 0.5px;
 }
+
+.thanks-message{
+  background-color: white;
+  margin: 2rem 15px;
+}
+
+.thanks-message p{
+  font-weight: 400;
+  color:hsl(234, 29%, 20%) ;
+  padding: 20px 0px;
+}
+.thanks-message button{
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.thanks-message p span {
+  font-weight: 600;
+}
+
+
+
+@media screen and (min-width:768px) {
+  .App{
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Roboto', sans-serif;
+    margin: 7rem 20rem;
+    border-radius: 20px;
+    background-color: white ;
+    padding: 20px;
+    height: 500px;
+    align-items: center;  
+  }
+
+  .left{
+    background-image: url(./images/illustration-sign-up-desktop.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:50%;
+    height: 100%;  
+    border-radius: 30px;
+  }
+
+  body{
+    background-color: hsl(234, 29%, 20%);
+  }
+  
+  .right{
+    align-items: center;
+    margin:auto;
+
+  }
+
+  .thanks-message{
+    background-color: white;
+    width : 400px;
+    height:auto;
+    margin:auto;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 7rem;
+;  }
+  
+  .thanks-message p{
+    font-weight: 400;
+    color:hsl(234, 29%, 20%) ;
+    padding: 20px 0px;
+  }
+  .thanks-message button{
+    width: 100%;
+    margin-top: 0rem;
+  }
+  
+  .thanks-message p span {
+    font-weight: 600;
+  }
+  
+}
